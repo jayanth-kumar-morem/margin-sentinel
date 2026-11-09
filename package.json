@@ -1,0 +1,26 @@
+{
+  "name": "margin-sentinel",
+  "version": "0.1.0",
+  "description": "AI-ready liquidation-risk agent for Injective perpetuals (testnet prototype)",
+  "scripts": {
+    "demo": "node src/cli.ts demo",
+    "scan": "node src/cli.ts scan",
+    "cascade": "node src/cli.ts cascade",
+    "watch": "node src/cli.ts watch",
+    "keygen": "node src/cli.ts keygen",
+    "dry-run": "node src/cli.ts dry-run",
+    "test": "node --test \"test/**/*.test.ts\""
+  },
+  "author": "Jayanth Kumar",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@injectivelabs/networks": "^1.20.66",
+    "@injectivelabs/sdk-ts": "^1.20.66",
+    "@injectivelabs/utils": "^1.20.66"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=22.18"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "allowedMarkets": [
+    "*"
+  ],
+  "minLiqDistancePct": 10,
+  "targetLiqDistancePct": 20,
+  "maxLeverage": 8,
+  "maxAddMarginPerAction": 25,
+  "dailyAddMarginBudget": 100,
+  "maxReducePctPerAction": 50,
+  "maxSlippagePct": 1.5,
+  "maxFundingCostPerDayPctOfEquity": 1
+}
